@@ -3,6 +3,12 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
+.search-input {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 6px;
+}
+
 .weather-app {
   background: whitesmoke;
   border-radius: 10px;
