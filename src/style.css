@@ -10,10 +10,15 @@ footer {
   border-top: 1px solid #e6d3a7;
   color: rgb(57, 47, 47), 0.6;
   padding: 30px 0 0 0;
+  text-align: center;
 }
 header {
   border-bottom: 1px solid #e6d3a7;
   padding: 0 0 30px 0;
+}
+
+.main {
+  padding: 30px 0;
 }
 .search-button {
   background: #e6d3a7;
@@ -43,4 +48,9 @@ header {
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
 }
