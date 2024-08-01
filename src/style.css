@@ -71,6 +71,16 @@ header {
   color: #83580b;
 }
 
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+  margin-right: 10px;
+}
 .weather-app-temp {
   display: flex;
+  margin-left: 10px;
+}
+
+.weather-app-temp-value {
+  font-size: 88px;
 }
