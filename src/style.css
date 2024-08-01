@@ -1,5 +1,5 @@
 a {
-  color: #392f2f;
+  color: #83580b;
 }
 body {
   background-color: antiquewhite;
@@ -8,7 +8,7 @@ body {
 
 footer {
   border-top: 1px solid #e6d3a7;
-  color: rgb(57, 47, 47), 0.6;
+  color: rgb(216, 182, 79, 0.6);
   padding: 30px 0 0 0;
   text-align: center;
 }
@@ -42,7 +42,7 @@ header {
 }
 
 .weather-app {
-  background: #59a985;
+  background: antiquewhite;
   border-radius: 10px;
   box-shadow: 0 30px 50px #392f2f;
   max-width: 600px;
@@ -56,11 +56,16 @@ header {
   line-height: 48px;
 }
 
-.weather-app-data {
+.weather-app-details {
+  color: #d9b650;
   display: flex;
   font-size: 16px;
   justify-content: space-between;
   line-height: 20px;
+}
+
+.weather-app-details strong {
+  color: #83580b;
 }
 
 .weather-app-temp {
