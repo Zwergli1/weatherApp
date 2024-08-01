@@ -74,9 +74,7 @@ header {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-right: 10px;
+  height: 88px;
 }
 .weather-app-temp {
   display: flex;
@@ -86,6 +84,7 @@ header {
 .weather-app-temp-value {
   color: #6e87b3;
   font-size: 88px;
+  line-height: 98px;
 }
 .weather-app-unit {
   color: #6e87b3;
