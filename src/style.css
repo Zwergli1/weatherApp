@@ -2,8 +2,13 @@ a {
   color: #90a9d3;
 }
 body {
-  background: rgb(254, 236, 235);
-
+  background: linear-gradient(
+    179.1deg,
+    rgb(247, 238, 238) -1.9%,
+    rgb(247, 202, 201) 44.9%,
+    rgb(145, 168, 208) 96.1%
+  );
+  background-attachment: fixed;
   font-family: "Bebas Neue", sans-serif;
 }
 
