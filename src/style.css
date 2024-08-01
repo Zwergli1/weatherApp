@@ -2,21 +2,24 @@ a {
   color: #90a9d3;
 }
 body {
-  background-color: antiquewhite;
+  background: rgb(254, 236, 235);
+
   font-family: "Bebas Neue", sans-serif;
 }
 
 footer {
   border-top: 1px solid #dfdfdf;
   color: #b1bed5;
-  padding: 30px 0 0 0;
+  padding: 15px 0 0 0;
   text-align: center;
 }
 header {
   border-bottom: 1px solid #dfdfdf;
   padding: 0 0 30px 0;
 }
-
+input::placeholder {
+  color: #b1bed5;
+}
 .main {
   padding: 30px 0;
 }
