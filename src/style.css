@@ -50,7 +50,16 @@ header {
   padding: 30px;
 }
 
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+}
+
+.weather-app-temp {
 }
