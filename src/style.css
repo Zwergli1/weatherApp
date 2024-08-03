@@ -99,3 +99,27 @@ input::placeholder {
   margin-top: 13px;
   font-size: 28px;
 }
+
+.weather-forecast-date {
+  text-align: center;
+  color: #90a9d3;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  color: #6e87b3;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
