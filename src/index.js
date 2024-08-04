@@ -17,6 +17,8 @@ function refreshWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${response.data.wind.speed} km/h`;
+
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
@@ -52,10 +54,13 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
-searchCity("Sion");
-
-function displayForecast() {
-  let forecastElement = document.querySelector("#forecast");
+function getForecast(city) {
+  let apiKey = "c945b1b3a38a7ed39dtf309fbc9oc934";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(displayForecast);
+}
+function displayForecast(response) {
+  console.log(response.data);
 
   let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
   let forecastHtml = "";
@@ -77,7 +82,8 @@ function displayForecast() {
     `;
   });
 
+  let forecastElement = document.querySelector("#forecast");
   forecastElement.innerHTML = forecastHtml;
 }
 
-displayForecast();
+searchCity("Sion");
