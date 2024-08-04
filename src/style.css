@@ -113,8 +113,8 @@ input::placeholder {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
   text-align: center;
+  width: 88px;
 }
 
 .weather-forecast-temperatures {
